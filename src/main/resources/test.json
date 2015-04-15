@@ -1,0 +1,236 @@
+{
+  "type": "Feature",
+  "properties": {
+    "mag": 1.32,
+    "place": "6km NW of The Geysers, California",
+    "time": 1429115018090,
+    "updated": 1429115117200,
+    "tz": -420,
+    "url": "http://earthquake.usgs.gov/earthquakes/eventpage/nc72428950",
+    "felt": null,
+    "cdi": null,
+    "mmi": null,
+    "alert": null,
+    "status": "automatic",
+    "tsunami": 0,
+    "sig": 27,
+    "net": "nc",
+    "code": "72428950",
+    "ids": ",nc72428950,",
+    "sources": ",nc,",
+    "types": ",general-link,geoserve,nearby-cities,origin,phase-data,",
+    "nst": 23,
+    "dmin": 0.01009,
+    "rms": 0.02,
+    "gap": 47,
+    "magType": "md",
+    "type": "earthquake",
+    "title": "M1.3  - 6km NW of The Geysers, California",
+    "products": {
+      "general-link": [
+        {
+          "indexid": "862702",
+          "indexTime": 1429115120684,
+          "id": "urn:usgs-product:us:general-link:nc72428950-0:1429115117200",
+          "type": "general-link",
+          "code": "nc72428950-0",
+          "source": "us",
+          "updateTime": 1429115117200,
+          "status": "UPDATE",
+          "properties": {
+            "eventsource": "nc",
+            "eventsourcecode": "72428950",
+            "text": "Additional earthquake information for California",
+            "url": "http://earthquake.usgs.gov/earthquakes/states/index.php?regionID=5"
+          },
+          "preferredWeight": 1,
+          "contents": []
+        }
+      ],
+      "geoserve": [
+        {
+          "indexid": "862704",
+          "indexTime": 1429115122046,
+          "id": "urn:usgs-product:us:geoserve:nc72428950:1429115117200",
+          "type": "geoserve",
+          "code": "nc72428950",
+          "source": "us",
+          "updateTime": 1429115117200,
+          "status": "UPDATE",
+          "properties": {
+            "country": "United States",
+            "eventsource": "nc",
+            "eventsourcecode": "72428950",
+            "location": "6km NW of The Geysers, California",
+            "state": "California",
+            "tsunamiFlag": "false",
+            "utcOffset": "-420"
+          },
+          "preferredWeight": 1,
+          "contents": {
+            "geoserve.json": {
+              "contentType": "application/json",
+              "lastModified": 1429115120000,
+              "length": 1267,
+              "url": "http://earthquake.usgs.gov/realtime/product/geoserve/nc72428950/us/1429115117200/geoserve.json"
+            }
+          }
+        }
+      ],
+      "nearby-cities": [
+        {
+          "indexid": "862703",
+          "indexTime": 1429115120917,
+          "id": "urn:usgs-product:us:nearby-cities:nc72428950:1429115117200",
+          "type": "nearby-cities",
+          "code": "nc72428950",
+          "source": "us",
+          "updateTime": 1429115117200,
+          "status": "UPDATE",
+          "properties": {
+            "eventsource": "nc",
+            "eventsourcecode": "72428950"
+          },
+          "preferredWeight": 1,
+          "contents": {
+            "nearby-cities.inc.html": {
+              "contentType": "text/html",
+              "lastModified": 1429115119000,
+              "length": 266,
+              "url": "http://earthquake.usgs.gov/realtime/product/nearby-cities/nc72428950/us/1429115117200/nearby-cities.inc.html"
+            },
+            "nearby-cities.json": {
+              "contentType": "application/json",
+              "lastModified": 1429115119000,
+              "length": 628,
+              "url": "http://earthquake.usgs.gov/realtime/product/nearby-cities/nc72428950/us/1429115117200/nearby-cities.json"
+            }
+          }
+        }
+      ],
+      "origin": [
+        {
+          "indexid": "862700",
+          "indexTime": 1429115119585,
+          "id": "urn:usgs-product:nc:origin:nc72428950:1429115117200",
+          "type": "origin",
+          "code": "nc72428950",
+          "source": "nc",
+          "updateTime": 1429115117200,
+          "status": "UPDATE",
+          "properties": {
+            "azimuthal-gap": "47",
+            "depth": "3.24",
+            "depth-type": "from location",
+            "evaluation-status": "preliminary",
+            "event-type": "earthquake",
+            "eventParametersPublicID": "quakeml:nc.anss.org/catalog/NC/1/142911511720",
+            "eventsource": "nc",
+            "eventsourcecode": "72428950",
+            "eventtime": "2015-04-15T16:23:38.090Z",
+            "horizontal-error": "0.22",
+            "latitude": "38.814167",
+            "longitude": "-122.8153305",
+            "magnitude": "1.32",
+            "magnitude-error": "0.18",
+            "magnitude-num-stations-used": "7",
+            "magnitude-source": "NC",
+            "magnitude-type": "md",
+            "minimum-distance": "0.01009",
+            "num-phases-used": "23",
+            "num-stations-used": "23",
+            "origin-source": "NC",
+            "quakeml-magnitude-publicid": "quakeml:nc.anss.org/Netmag/NC/1107030",
+            "quakeml-origin-publicid": "quakeml:nc.anss.org/Origin/NC/1943240",
+            "quakeml-publicid": "quakeml:nc.anss.org/Event/NC/72428950",
+            "review-status": "automatic",
+            "standard-error": "0.02",
+            "version": "1",
+            "vertical-error": "0.42"
+          },
+          "preferredWeight": 156,
+          "contents": {
+            "contents.xml": {
+              "contentType": "application/xml",
+              "lastModified": 1429115118000,
+              "length": 195,
+              "url": "http://earthquake.usgs.gov/realtime/product/origin/nc72428950/nc/1429115117200/contents.xml"
+            },
+            "quakeml.xml": {
+              "contentType": "application/xml",
+              "lastModified": 1429115117000,
+              "length": 2705,
+              "url": "http://earthquake.usgs.gov/realtime/product/origin/nc72428950/nc/1429115117200/quakeml.xml"
+            }
+          }
+        }
+      ],
+      "phase-data": [
+        {
+          "indexid": "862701",
+          "indexTime": 1429115120331,
+          "id": "urn:usgs-product:nc:phase-data:nc72428950:1429115117200",
+          "type": "phase-data",
+          "code": "nc72428950",
+          "source": "nc",
+          "updateTime": 1429115117200,
+          "status": "UPDATE",
+          "properties": {
+            "azimuthal-gap": "47",
+            "depth": "3.24",
+            "depth-type": "from location",
+            "evaluation-status": "preliminary",
+            "event-type": "earthquake",
+            "eventParametersPublicID": "quakeml:nc.anss.org/catalog/NC/1/142911511720",
+            "eventsource": "nc",
+            "eventsourcecode": "72428950",
+            "eventtime": "2015-04-15T16:23:38.090Z",
+            "horizontal-error": "0.22",
+            "latitude": "38.814167",
+            "longitude": "-122.8153305",
+            "magnitude": "1.32",
+            "magnitude-error": "0.18",
+            "magnitude-num-stations-used": "7",
+            "magnitude-source": "NC",
+            "magnitude-type": "md",
+            "minimum-distance": "0.01009",
+            "num-phases-used": "23",
+            "num-stations-used": "23",
+            "origin-source": "NC",
+            "quakeml-magnitude-publicid": "quakeml:nc.anss.org/Netmag/NC/1107030",
+            "quakeml-origin-publicid": "quakeml:nc.anss.org/Origin/NC/1943240",
+            "quakeml-publicid": "quakeml:nc.anss.org/Event/NC/72428950",
+            "review-status": "automatic",
+            "standard-error": "0.02",
+            "version": "1",
+            "vertical-error": "0.42"
+          },
+          "preferredWeight": 156,
+          "contents": {
+            "contents.xml": {
+              "contentType": "application/xml",
+              "lastModified": 1429115118000,
+              "length": 195,
+              "url": "http://earthquake.usgs.gov/realtime/product/phase-data/nc72428950/nc/1429115117200/contents.xml"
+            },
+            "quakeml.xml": {
+              "contentType": "application/xml",
+              "lastModified": 1429115117000,
+              "length": 51538,
+              "url": "http://earthquake.usgs.gov/realtime/product/phase-data/nc72428950/nc/1429115117200/quakeml.xml"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -122.8153305,
+      38.814167,
+      3.24
+    ]
+  },
+  "id": "nc72428950"
+}
