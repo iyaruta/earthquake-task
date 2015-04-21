@@ -5,7 +5,7 @@ public class Feature {
     private String id;
     private String type;
     private Point geometry;
-    private Property property;
+    private Property properties;
 
     public String getId() {
         return id;
@@ -31,11 +31,11 @@ public class Feature {
         this.geometry = geometry;
     }
 
-    public Property getProperty() {
-        return property;
+    public Property getProperties() {
+        return properties;
     }
 
-    public void setProperty(Property property) {
-        this.property = property;
+    public void setProperties(Property properties) {
+        this.properties = properties;
     }
 }
